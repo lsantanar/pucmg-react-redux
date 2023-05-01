@@ -1,5 +1,5 @@
 import axios from "axios";
-const API_KEY = "d416af5d4faee64e25ab001d87aab5c3";
+const API_KEY = "0a398a3f6adbf2e2f44e5bfb4fbcef6e";
 const BASE_URL = "https://api.themoviedb.org/3/";
 // Função auxiliar para montar a URL utilizada na requisição
 const withBaseUrl = (path) => `${BASE_URL}${path}?api_key=${API_KEY}`;
